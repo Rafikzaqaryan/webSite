@@ -5,7 +5,7 @@ import Search from "./Search";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center w-[1532px] h-[93.2px] py-[24px] px-[80px]">
+    <div className="flex justify-between items-center w-[1519px] h-[93.2px] py-[24px] px-[80px]">
       <Logo />
       <Departments />
       <Search />

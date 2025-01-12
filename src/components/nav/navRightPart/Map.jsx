@@ -3,7 +3,6 @@ import React from "react";
 export default function Map() {
   return (
     <div>
-      {" "}
       <div className="flex gap-2">
         <div className="w-[144px] h-[45px] border border-black rounded-[40px] flex gap-[10px] justify-center items-center">
           <p>Քարտեզ</p>
