@@ -13,7 +13,9 @@ export default function App() {
 
   return (
     <div>
-      <h1 className="mt-[30px]">Գիշերակացի առկայություն</h1>
+      <strong>
+        <h1 className="mt-[30px]">Գիշերակացի առկայություն</h1>
+      </strong>
       <div className="flex gap-[30px] items-center pt-[20px]">
         <div className="grid grid-cols-2 gap-[5px]">
           {buttonValue.map((value, index) => (
@@ -34,7 +36,7 @@ export default function App() {
           ))}
         </div>
       </div>
-      <div className="w-[220px] h-[1px]  bg-[#f3f3f4] mr-[30px] mt-[40px]"></div>
+      <div className="w-[220px] h-[1px]  bg-[#f3f3f4] mr-[30px] mt-[20px]"></div>
     </div>
   );
 }

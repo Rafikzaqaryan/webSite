@@ -28,7 +28,7 @@ export default function Region() {
           <label for="a">Արզնի 10</label>
         </div>
       </div>
-      <div className="w-[220px] h-[1px]  bg-[#f3f3f4] mr-[30px] mt-[40px]"></div>
+      <div className="w-[220px] h-[1px]  bg-[#f3f3f4] mr-[30px] mt-[20px]"></div>
     </div>
   );
 }
