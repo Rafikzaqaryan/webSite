@@ -96,6 +96,7 @@ export default function BestOffers() {
           Լավագույն առաջարկներ
         </h1>
       </strong>
+      <div className=" w-[1000px] h-[1px] bg-[#f3f3f4] mr-[30px] mb-[25px] "></div>
       <div className="grid grid-cols-3 pr-[20px] gap-[20px]">
         {BestOffersObj.map((el, i) => (
           <Boffers

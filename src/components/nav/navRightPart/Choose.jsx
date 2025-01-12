@@ -61,7 +61,7 @@ export default function Choose() {
           <p> Լճի ափին</p>
         </div>
       </div>
-      <div className=" w-[220px] h-[1px] bg-[#f3f3f4] mr-[30px] mt-[20px]"></div>
+      <div className=" w-[1000px] h-[1px] bg-[#f3f3f4] mr-[30px] mt-[20px]"></div>
     </div>
   );
 }
