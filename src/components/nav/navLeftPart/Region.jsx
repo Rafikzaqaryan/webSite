@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Region() {
   return (
-    <div className="pl-[30px] pt-[20px] ">
+    <div className="pt-[20px] ">
       <strong>
         <h1>Տարածաշրջան</h1>
       </strong>
@@ -28,7 +28,7 @@ export default function Region() {
           <label for="a">Արզնի 10</label>
         </div>
       </div>
-      <div className="border  w-[220px] mr-[30px] mt-[40px]"></div>
+      <div className="w-[220px] h-[1px]  bg-[#f3f3f4] mr-[30px] mt-[40px]"></div>
     </div>
   );
 }
