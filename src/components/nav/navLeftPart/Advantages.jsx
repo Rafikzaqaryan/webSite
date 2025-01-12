@@ -36,7 +36,6 @@ export default function Advantages() {
           <label for="a">Թոնիր</label>
         </div>
       </div>
-      <div className="w-[220px] h-[1px]  bg-[#f3f3f4] mr-[30px] mt-[20px]"></div>
     </div>
   );
 }
