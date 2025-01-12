@@ -4,6 +4,7 @@ import Price from "./Price";
 import Overnight from "./Overnight";
 import MaxPeopleCount from "./MaxPeopleCount";
 import AllowedPeopleNight from "./AllowedPeopleNight";
+import RoomCount from "./RoomCount";
 
 export default function NavLeftPart() {
   return (
@@ -14,6 +15,7 @@ export default function NavLeftPart() {
         <MaxPeopleCount />
         <Overnight />
         <AllowedPeopleNight />
+        <RoomCount />
       </div>
     </div>
   );
