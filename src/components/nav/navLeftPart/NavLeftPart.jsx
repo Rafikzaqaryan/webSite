@@ -1,6 +1,8 @@
 import React from "react";
 import Region from "./Region";
 import Price from "./Price";
+import Overnight from "./Overnight";
+import MaxPeopleCount from "./MaxPeopleCount";
 
 export default function NavLeftPart() {
   return (
@@ -8,6 +10,8 @@ export default function NavLeftPart() {
       <div className="pl-[30px]">
         <Region />
         <Price />
+        <MaxPeopleCount />
+        <Overnight />
       </div>
     </div>
   );
